@@ -633,7 +633,7 @@ textarea:focus {
     cursor: pointer;
     position: fixed;
     right: 105%;
-    transition: 1.5s ease;
+    transition: 0.5s ease;
     z-index: 99;
 }
 
@@ -671,11 +671,11 @@ textarea:focus {
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
     -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
     display: inline-block;
-    -moz-transition: all 0.5s ease-in-out 0s;
-    -ms-transition: all 0.5s ease-in-out 0s;
-    -o-transition: all 0.5s ease-in-out 0s;
-    -webkit-transition: all 0.5s ease-in-out 0s;
-    transition: all 0.5s ease-in-out 0s;
+    -moz-transition: all 0.2s ease-in-out 0s;
+    -ms-transition: all 0.2s ease-in-out 0s;
+    -o-transition: all 0.2s ease-in-out 0s;
+    -webkit-transition: all 0.2s ease-in-out 0s;
+    transition: all 0.2s ease-in-out 0s;
     text-transform: capitalize;
     letter-spacing: 0.08em;
 }
@@ -696,7 +696,7 @@ textarea:focus {
 
 .atf-themes-btn.work:hover,
 .atf-themes-btn.educ:hover {
-    background: var(--gray-dark);
+    background: var(--thm-accent);
 }
 
 /*
@@ -1181,14 +1181,14 @@ textarea:focus {
     margin: 20px auto;
 }
 
-.atf-single-about:hover {
+/*.atf-single-about:hover {
     background: var(--thm-accent);
 }
-
+*/
 .atf-single-about:hover h3,
 .atf-single-about:hover p,
 .atf-single-about:hover i {
-    color: var(--thm-white);
+/*    color: var(--thm-white);*/
     transition: 0.3s ease-in-out;
 }
 
