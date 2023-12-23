@@ -1,0 +1,49 @@
+{
+  "name": "portfolio-website-template-for-registered-nurse",
+  "version": "2.0.1",
+  "description": "This is a portfolio website for a registered nurse. The purpose of the website is to showcase the nurse’s skills, experience, and qualifications. The website is designed for potential employers, recruiters, and patients.",
+  "main": "index.html",
+  "type": "module",
+  "private": true,
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "test": "vite preview",
+    "push": "git add . && git commit -m \"patch fixes\" && npm version patch && git push"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saaqi/registered-nurse-portfolio.git"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^5.0.0",
+    "autoprefixer": "^10.4.16",
+    "boxicons": "^2.1.4",
+    "cssnano": "^6.0.2",
+    "postcss": "^8.4.32",
+    "sass": "^1.69.5",
+    "vite": "^5.0.0",
+    "vite-plugin-minify": "^1.5.2",
+    "vite-plugin-webfont-dl": "^3.9.1"
+  },
+  "keywords": [
+    "nurse",
+    "portfolio",
+    "bootstrap",
+    "template",
+    "html",
+    "css"
+  ],
+  "author": "Saqib Islam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/saaqi/registered-nurse-portfolio/issues"
+  },
+  "homepage": "https://github.com/saaqi/registered-nurse-portfolio#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.2"
+  }
+}
