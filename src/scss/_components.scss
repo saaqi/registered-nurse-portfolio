@@ -17,3 +17,9 @@
     transform: translateY(1.5px);
   }
 }
+
+.btn-group {
+  .btn:hover {
+    transform: none;
+  }
+}

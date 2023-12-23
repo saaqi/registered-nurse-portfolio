@@ -3,7 +3,6 @@
 /* Site Header
 --------------------------------------------- */
 .site-header {
-  background-color: v.$primary;
   left: 0;
   position: fixed;
   top: 0;
@@ -43,7 +42,6 @@
 }
 
 .primary-menu .menu-item  {
-  color: v.$light;
   text-shadow: v.$text-shadow;
   transition: v.$transition;
   font-weight: 500;
@@ -105,7 +103,6 @@
   .menu-toggle {
     background: transparent;
     border-width: 0;
-    color: v.$light;
     cursor: pointer;
     display: block !important;
     margin-top: 2px;
