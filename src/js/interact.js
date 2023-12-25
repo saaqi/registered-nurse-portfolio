@@ -6,5 +6,12 @@ let year = dateObj.getFullYear();
 const newdate = year + "-" + month;
 document.getElementById("today").innerHTML = newdate;
 
+
+
+
+
+
+
+
 // Show current year in the footer
-// document.getElementById("year").innerHTML = new Date().getFullYear();
+document.getElementById("year").innerHTML = new Date().getFullYear();
