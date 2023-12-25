@@ -1,6 +1,7 @@
 /* ## Import BootStrap SCSS
 --------------------------------------------- */
-import "./main.scss";
+// import "./main.scss";
+import "./bs-compiled.css";
 import "./scss/style.scss";
 
 /* ## Import Boxicons
