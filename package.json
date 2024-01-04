@@ -1,6 +1,6 @@
 {
   "name": "portfolio-website-template-for-registered-nurse",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "This is a portfolio website for a registered nurse. The purpose of the website is to showcase the nurse’s skills, experience, and qualifications. The website is designed for potential employers, recruiters, and patients.",
   "main": "index.html",
   "type": "module",
